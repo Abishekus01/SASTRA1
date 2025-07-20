@@ -1,9 +1,6 @@
 {% extends "layout.html" %}
 
 {% block head %}
-	  <meta name="description"
-          content="Shows all the Programmes (from all campuses).
-                   Click any Programme name to display more info about it.">
     <meta name="description"
         content="Shows all the Programmes (from all campuses).
                  Click any Programme name to display more info about it.">
@@ -119,6 +116,7 @@
             {% endfor %}
         </div>
     {% endif %}
+
     {% if campuses %}
         <hr>
         <p style="text-align: center; font-size: 2em;">Available Campuses</p>
