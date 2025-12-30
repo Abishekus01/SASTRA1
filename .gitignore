@@ -1,0 +1,10 @@
+*.pem
+a.py
+.*
+!.github/
+!.dockerignore
+__pycache__/
+*.py[cod]
+sastra/
+venv/
+.vscode/
